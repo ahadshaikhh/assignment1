@@ -1,0 +1,100 @@
+/* Reset styles */
+body, h1, h2, ul, li, p, input {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #222; /* Dark gray background */
+  color: #fff;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff; /* Link color set to white */
+  text-decoration: none; /* Remove underline */
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+
+/* Styles for specific sections/pages */
+
+/* Home page */
+#home {
+  text-align: center;
+}
+
+/* Projects page */
+#projects {
+  text-align: center;
+}
+
+#filterInput {
+  margin-bottom: 20px;
+}
+
+#projectList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#projectList div {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px;
+  color: #333;
+}
+
+/* Education page */
+#education {
+  text-align: center;
+}
+
+#educationList {
+  list-style: none;
+  padding: 0;
+}
+
+#educationList li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 5px;
+  color: #333;
+}
